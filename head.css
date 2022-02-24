@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 76px;
+}
+.warp{
+    width: 80%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}	
+.logo{
+    padding-top: 6px;
+    float: left;
+}
+img{
+    width: 170px;
+}
+.header nav{
+    float: left;
+    padding: 28px 0 0 40px;
+}
+ul li{
+    list-style: none;
+}
+.header nav li {
+    float: left;
+    padding: 0 25px;
+}
+.header .login {
+    color: #fe5341;
+    transition: all 0.15s linear;
+    font-size: 16px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    border: 1px #fe5341 solid;
+    /* margin-top: 60px; */
+}
+.header .search {
+    color: #fe5341;
+    transition: all 0.15s linear;
+    margin-left: 20px;
+    margin-top: 23px;
+    font-size: 16px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    border: 1px #fe5341 solid;
+}
+.pic{
+    width: 25px;
+    /* margin-top: 25px; */
+    position: absolute;
+    top: 3px;
+    left: -40px;
+}
+.left{
+    float: right;
+    /* position: absolute; */
+    margin-left: 40px;
+    margin-top: 25px;
+    position: relative;
+}
